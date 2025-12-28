@@ -24,5 +24,13 @@ export default {
         } catch (err) {
             httpError(next, err, req, 500)
         }
+    },
+
+    register: (req: Request, res: Response, next: NextFunction) => {
+        try {
+            httpResponse(req, res, 201, responseMessage.SUCCESS)
+        } catch (err) {
+            httpError(next, err, req, 500)
+        }
     }
 }
