@@ -1,5 +1,5 @@
 {
-  "name": "ts-backend-production-template",
+  "name": "node-js-auth-system",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
@@ -15,7 +15,7 @@
     "migrate:dev": "cross-env MIGRATE_MODE=development node script/migration.js",
     "migrate:prod": "cross-env MIGRATE_MODE=production node script/migration.js"
   },
-  "author": "coder bb",
+  "author": "Md. Zihad",
   "license": "ISC",
   "lint-staged": {
     "*.ts": [
